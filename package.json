@@ -1,6 +1,9 @@
 {
-  "name": "typescript",
-  "version": "0.0.0",
+  "name": "Utils-API",
+  "version": "0.0.1",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "inversify": "^5.0.1",
+    "reflect-metadata": "^0.1.13"
+  }
 }
