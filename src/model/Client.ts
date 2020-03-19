@@ -5,6 +5,16 @@ import { injectable, inject } from "inversify";
 
 @injectable()
 export class Client implements IClient{
+    
+    getIP(): String {
+        throw new Error("Method not implemented.");
+    }
+    getMAC(): String {
+        throw new Error("Method not implemented.");
+    }
+    setIP(ip: String) {
+        throw new Error("Method not implemented.");
+    }
     private RPCServer: RpcServer
     private Auth: Auth
     private Token: String
@@ -18,5 +28,7 @@ export class Client implements IClient{
         this.ID = ID
 
     }
+
+    
 
 }
