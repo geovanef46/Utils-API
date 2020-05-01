@@ -1,12 +1,18 @@
-import {RpcServer} from './IRpcServer'
-import {Auth} from './IAuth'
+import {IRpcServer} from './IRpcServer'
+import {IAuth} from './IAuth'
 
 export interface IClient{
 
-getIP():String
+    RPCServer?: IRpcServer
+    Auth: IAuth
+    Token: string
+    ID: string
+    
 
-getMAC():String
+getIP():string
 
-setIP(ip: String): any
+getMAC():string
+
+setIP(ip: string): any
 
 }

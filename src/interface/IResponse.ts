@@ -1,5 +1,5 @@
-export interface Response{
-  Id: String
-  Result: JSON
-  Error: String
+export interface IResponse{
+    Id: string;    
+    Result: JSON;
+    Error: string;
 }

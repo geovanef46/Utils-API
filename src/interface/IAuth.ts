@@ -1,5 +1,5 @@
-export interface Auth {
-Username: String
-Password: String
-Timeout: Number
+export interface IAuth {
+Username: string
+Password: string
+Timeout: number
 }

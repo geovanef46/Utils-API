@@ -1,5 +1,6 @@
-export interface Payload {
-Id: String
-Method: String
-Params: String[]
+export interface IPayload {
+    Id: string;    
+    Method: string;
+    Params: string[];
+
 }
